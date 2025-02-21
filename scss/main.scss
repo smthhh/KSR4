@@ -335,6 +335,7 @@ body {
 
                 @include mixins.adaptive(1580px) {
                     column-gap: 1%;
+                    row-gap: 3%;
                     grid-template-columns: 1fr 1fr;
                 }
 

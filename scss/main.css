@@ -313,8 +313,7 @@ body {
 }
 @media screen and (max-width: 1580px) {
   .adminbar .content .bot-content .reservas {
-    -moz-column-gap: 1%;
-         column-gap: 1%;
+    grid-gap: 2%;
     grid-template-columns: 1fr 1fr;
   }
 }
